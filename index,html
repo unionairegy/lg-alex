@@ -1,3 +1,4 @@
+  <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
@@ -5,6 +6,7 @@
   <title>مركز صيانة ال جي الاسكندرية | خدمة صيانة منزلية فورية بجميع أحياء الإسكندرية</title>
   <meta name="description" content="خدمة صيانة منزلية فورية لكافة أجهزة LG بالإسكندرية (غسالات، ثلاجات، تكييفات، ديب فريزر، شاشات). إصلاح فوري بالمنزل دون نقل الجهاز وبقطع غيار أصلية وضمان. اتصل الآن 01093576399.">
   <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://maps.google.com/?cid=7284903337920175374">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -70,25 +72,35 @@
     }
   </style>
 
-  <!-- Complete JSON-LD LocalBusiness Schema for Google Entity Validation as a Service Area Business -->
+  <!-- Complete JSON-LD LocalBusiness Schema Linked with CID & Live Operating Hours -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
-    "name": "مركز صيانة ال جي الاسكندرية - صيانة غسالات ال جي اسكندريه",
+    "@id": "https://maps.google.com/?cid=7284903337920175374#business",
+    "name": "صيانة غسالات ال جي اسكندريه",
     "alternateName": [
       "مركز صيانة ال جي الاسكندرية",
-      "صيانة غسالات ال جي اسكندريه",
       "خدمة صيانة اجهزة LG المنزلية بالاسكندرية",
       "LG Home Maintenance Alexandria"
     ],
+    "url": "https://alexandriarepair.com",
     "telephone": "+201093576399",
     "priceRange": "$$",
     "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1200&q=80",
-    "hasMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.821445028609!2d29.936942499999997!3d31.225675900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c58317bb2a0b%3A0x6519464288809d0e!2z2LXZitin2YbYqSDYutiz2KfZhNin2Kog2KfZhCDYrNmKINin2LPZg9mG2K_YsdmK2Yc!5e0!3m2!1sen!2seg!4v1793084995424!5m2!1sen!2seg",
+    "hasMap": "https://maps.google.com/?cid=7284903337920175374",
     "sameAs": [
+      "https://maps.google.com/?cid=7284903337920175374",
       "https://wa.me/201156174546"
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "طريق الجيش، سيدي جابر",
+      "addressLocality": "سيدي جابر",
+      "addressRegion": "الإسكندرية",
+      "postalCode": "5434021",
+      "addressCountry": "EG"
+    },
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": 31.2256759,
@@ -112,8 +124,8 @@
     ],
     "areaServed": [
       { "@type": "City", "name": "الإسكندرية" },
-      { "@type": "AdministrativeArea", "name": "سموحة" },
       { "@type": "AdministrativeArea", "name": "سيدي جابر" },
+      { "@type": "AdministrativeArea", "name": "سموحة" },
       { "@type": "AdministrativeArea", "name": "رشدي" },
       { "@type": "AdministrativeArea", "name": "كفر عبده" },
       { "@type": "AdministrativeArea", "name": "سبورتنج" },
@@ -168,7 +180,7 @@
         </div>
         <div>
           <span class="text-base sm:text-xl font-black text-slate-900 leading-tight block">
-            مركز صيانة ال جي الاسكندرية
+            صيانة غسالات ال جي اسكندريه
           </span>
           <p class="text-xs text-slate-500 font-semibold">
             خدمة صيانة غسالات ال جي وجميع الأجهزة المنزلية بباب منزلك
@@ -540,7 +552,7 @@
     </div>
   </section>
 
-  <!-- Service Coverage Map & Alexandria Districts (No Office / No Visits) -->
+  <!-- Service Coverage Map & Alexandria Districts -->
   <section class="py-14 px-4 bg-white border-y border-slate-200">
     <div class="max-w-6xl mx-auto">
       
@@ -643,7 +655,7 @@
 
         </div>
 
-        <!-- Embedded Google Map as Coverage Proof (No office / No visits) -->
+        <!-- Embedded Google Map using Direct CID Reference -->
         <div class="lg:col-span-7 bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md">
           <div class="p-4 bg-slate-900 text-white flex items-center justify-between">
             <span class="text-xs sm:text-sm font-bold flex items-center gap-2">
@@ -656,14 +668,14 @@
           </div>
           <div class="relative w-full h-[450px]">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.821445028609!2d29.936942499999997!3d31.225675900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c58317bb2a0b%3A0x6519464288809d0e!2z2LXZitin2YbYqSDYutiz2KfZhNin2Kog2KfZhCDYrNmKINin2LPZg9mG2K_YsdmK2Yc!5e0!3m2!1sen!2seg!4v1793084995424!5m2!1sen!2seg" 
+              src="https://maps.google.com/maps?q=cid:7284903337920175374&t=&z=14&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="450" 
               style="border:0;" 
               allowfullscreen="" 
               loading="lazy" 
-              referrerpolicy="strict-origin-when-cross-origin"
-              title="خريطة نطاق خدمة صيانة غسالات ال جي اسكندريه">
+              referrerpolicy="strict-origin-when-cross-origin" 
+              title="خريطة صيانة غسالات ال جي اسكندريه الرسمية">
             </iframe>
           </div>
           <div class="p-3 bg-slate-100 border-t border-slate-200 text-center text-xs text-slate-600 font-semibold">
@@ -715,7 +727,7 @@
   <footer class="bg-brandDark text-slate-400 py-10 px-4 border-t border-slate-800 text-center text-xs">
     <div class="max-w-6xl mx-auto space-y-3">
       <div class="font-extrabold text-white text-base">
-        مركز صيانة ال جي الاسكندرية | صيانة غسالات ال جي اسكندريه
+        صيانة غسالات ال جي اسكندريه | خدمة صيانة منزلية فورية
       </div>
       <p class="max-w-2xl mx-auto text-slate-500 leading-relaxed">
         خدمة صيانة منزلية متخصصة ومستقلة لإصلاح وتجديد الأجهزة المنزلية لعلامة LG في محافظة الإسكندرية. كافة الإصلاحات تتم بالمنزل دون نقل الأجهزة. العلامات التجارية والأسماء المذكورة تخص مالكيها ولأغراض التعريف بالخدمة فقط.
@@ -724,12 +736,12 @@
         نطاق الخدمة: جميع أحياء الإسكندرية | هاتف: <a href="tel:01093576399" class="text-slate-200 font-bold hover:underline">01093576399</a> | واتساب: <a href="https://wa.me/201156174546" class="text-emerald-400 font-bold hover:underline">01156174546</a>
       </div>
       <div class="text-slate-600 pt-2">
-        &copy; جميع الحقوق محفوظة لـ مركز صيانة ال جي بالإسكندرية - خدمة منزلية فورية.
+        &copy; جميع الحقوق محفوظة لـ صيانة غسالات ال جي اسكندريه - خدمة منزلية فورية.
       </div>
     </div>
   </footer>
 
-  <!-- Floating Sticky Action Bar for Mobile & Desktop -->
+  <!-- Floating Sticky Action Bar -->
   <aside class="fixed bottom-3 left-3 right-3 sm:left-auto sm:right-6 sm:bottom-6 z-50 flex items-center gap-2">
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/201156174546" target="_blank" class="flex-1 sm:flex-initial flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-black py-3.5 px-5 rounded-2xl shadow-xl transition-all pulsing-wa">
