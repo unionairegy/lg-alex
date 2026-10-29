@@ -633,14 +633,15 @@
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        <!-- Coverage Details Card -->
-        <div class="lg:col-span-5 bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
+        <!-- Coverage Details Card (With Inlined Microdata Verification) -->
+        <div class="lg:col-span-5 bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm" itemscope itemtype="https://schema.org/LocalBusiness">
+          <link itemprop="hasMap" href="https://maps.google.com/?cid=7284903337920175374" />
           <div class="flex items-center gap-3 pb-6 border-b border-slate-200 mb-6">
             <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-xl font-black shrink-0 shadow-md shadow-emerald-600/30">
               <i class="fa-solid fa-house-chimney-check"></i>
             </div>
             <div>
-              <h3 class="text-lg font-black text-slate-900">صيانه غسالات ال جى اسكندريه</h3>
+              <h3 class="text-lg font-black text-slate-900" itemprop="name">صيانه غسالات ال جى اسكندريه</h3>
               <span class="text-xs text-slate-600 font-bold block mt-0.5">مركز صيانة ال جي الاسكندرية - خدمة فورية</span>
             </div>
           </div>
@@ -651,10 +652,10 @@
               <div class="w-9 h-9 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 mt-0.5">
                 <i class="fa-solid fa-map-location-dot"></i>
               </div>
-              <div>
+              <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                 <strong class="text-slate-900 block font-bold mb-0.5">نطاق التغطية والزيارات:</strong>
                 <p class="text-slate-700 leading-relaxed font-medium">
-                  جميع أحياء ومناطق محافظة الإسكندرية (طريق الجيش، سيدي جابر ورشدي).
+                  جميع أحياء ومناطق <span itemprop="addressLocality">محافظة الإسكندرية</span> (<span itemprop="streetAddress">طريق الجيش، سيدي جابر ورشدي</span>).
                 </p>
                 <p class="text-emerald-700 text-xs font-bold mt-1">
                   <i class="fa-solid fa-check-circle ml-1"></i> فنيون مجهزون يصلون لمنزلك دون الحاجة لنقل الجهاز
@@ -669,7 +670,7 @@
               </div>
               <div>
                 <strong class="text-slate-900 block font-bold mb-0.5">خط طلب الخدمة والزيارة:</strong>
-                <a href="tel:01093576399" class="text-xl font-black text-emerald-700 hover:text-emerald-800 dir-ltr inline-block">
+                <a href="tel:01093576399" itemprop="telephone" class="text-xl font-black text-emerald-700 hover:text-emerald-800 dir-ltr inline-block">
                   010 93576399
                 </a>
                 <p class="text-xs text-slate-500">اتصل لتسجيل العنوان وتحديد موعد وصول الفني</p>
